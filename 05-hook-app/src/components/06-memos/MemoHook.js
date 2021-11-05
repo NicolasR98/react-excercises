@@ -12,7 +12,7 @@ export const MemoHook = () => {
 		setShow(!show);
 	};
 
-    //This hook allow us to memorize a value that involves permorming heavy processes without the need for invoke it again when re-render
+    //This hook allow us to memoize a value that involves permorming heavy processes without the need for invoke it again when re-render
     const memoHeavyIterator = useMemo(() => heavyIterator(counter), [counter]);
 
 	return (
