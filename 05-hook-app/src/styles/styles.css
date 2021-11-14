@@ -2,6 +2,21 @@ body {
     padding: 60px;
 }
 
+p {
+    margin: 0;
+    cursor: pointer;
+}
+
 .blockquote > p {
     display: flex;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete {
+    text-decoration: line-through;
 }
