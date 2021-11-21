@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.css';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 // import { FocusScreen } from './components/05-useRef/FocusScreen';
 // import { HookApp } from './HookApp';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
@@ -11,6 +11,7 @@ import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { MemoHook } from './components/06-memos/MemoHook';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
 // import { Parent } from './components/07-tarea-memo/Parent';
+// import { TodoApp } from './components/08-useReducer/TodoApp';
 // import './components/08-useReducer/intro-reducer';
 
-ReactDOM.render(<TodoApp />, document.getElementById('root'));
+ReactDOM.render(<MainApp />, document.getElementById('root'));
