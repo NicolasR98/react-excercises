@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <MultipleCustomsHooks /> should display correctly 1`] = `
+<div>
+  <div>
+    <h1>
+      Breaking Bad quoutes
+    </h1>
+    <hr />
+    <div
+      class="alert alert-info text-center"
+    >
+      ... Loading
+    </div>
+    <button
+      class="btn btn-primary"
+    >
+      Next quoute
+    </button>
+  </div>
+</div>
+`;
