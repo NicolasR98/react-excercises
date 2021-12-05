@@ -33,6 +33,13 @@ export const useFetch = (url) => {
 				} else {
 					console.log('Request cancelled');
 				}
+			})
+			.catch((e) => {
+				setState({
+					loading: false,
+					data: null,
+					error: 'Could not load the info',
+				});
 			});
 	}, [url]);
 
