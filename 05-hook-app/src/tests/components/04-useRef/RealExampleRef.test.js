@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import { shallow } from 'enzyme';
 import React from 'react';
 import { RealExampleRef } from '../../../components/04-useRef/RealExampleRef';
