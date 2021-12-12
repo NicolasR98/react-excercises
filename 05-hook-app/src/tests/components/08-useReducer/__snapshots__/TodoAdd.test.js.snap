@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <TodoAdd /> should display correctly 1`] = `
+<Fragment>
+  <h4>
+    Add ToDo
+  </h4>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Do ..."
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-success col-12 mt-3"
+      type="submit"
+    >
+      Add ToDo
+    </button>
+  </form>
+</Fragment>
+`;
